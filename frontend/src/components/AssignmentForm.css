@@ -1,0 +1,84 @@
+.assignment-form-card {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.assignment-form-header {
+  margin-bottom: 2rem;
+}
+
+.assignment-form-header h2 {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+}
+
+.assignment-form-header p {
+  margin: 0;
+  color: #666;
+}
+
+.assignment-modern-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.assignment-modern-form .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.assignment-modern-form label {
+  font-weight: 600;
+  color: #333;
+}
+
+.assignment-modern-form select,
+.assignment-modern-form textarea {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.assignment-modern-form select:focus,
+.assignment-modern-form textarea:focus {
+  outline: none;
+  border-color: #4a90a4;
+}
+
+.assignment-modern-form button {
+  padding: 0.75rem 1.5rem;
+  background: #4a90a4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.assignment-modern-form button:hover {
+  background: #3a7a8e;
+}
+
+.assignment-modern-form button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.form-error-text {
+  color: #d32f2f;
+  margin-top: 1rem;
+}
+
+.form-success-text {
+  color: #388e3c;
+  margin-top: 1rem;
+}

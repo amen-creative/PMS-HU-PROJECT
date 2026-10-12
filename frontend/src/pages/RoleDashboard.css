@@ -1,0 +1,24 @@
+.role-dashboard-page {
+  background: #f3f6fb;
+  min-height: calc(100vh - 64px);
+  padding: 20px;
+}
+
+.role-dashboard-card {
+  max-width: 680px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+  padding: 24px;
+}
+
+.role-dashboard-card h2 {
+  margin: 0 0 10px;
+  color: #0f172a;
+}
+
+.role-dashboard-card p {
+  margin: 0;
+  color: #475569;
+}

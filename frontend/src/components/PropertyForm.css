@@ -1,0 +1,65 @@
+.property-form-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+  padding: 24px;
+}
+
+.property-form-header h2 {
+  margin: 0;
+  color: #0f172a;
+}
+
+.property-form-header p {
+  margin: 6px 0 18px;
+  color: #64748b;
+}
+
+.property-modern-form {
+  display: grid;
+  gap: 12px;
+}
+
+.property-modern-form input,
+.property-modern-form textarea {
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 0.92rem;
+  font-family: inherit;
+}
+
+.property-modern-form input:focus,
+.property-modern-form textarea:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.12);
+}
+
+.property-modern-form button {
+  border: none;
+  border-radius: 10px;
+  padding: 11px 14px;
+  background: #2563eb;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.property-modern-form button:disabled {
+  background: #93c5fd;
+  cursor: not-allowed;
+}
+
+.form-error-text {
+  margin: 12px 0 0;
+  color: #b91c1c;
+  font-size: 0.88rem;
+}
+
+.form-success-text {
+  margin: 12px 0 0;
+  color: #166534;
+  font-size: 0.88rem;
+}
